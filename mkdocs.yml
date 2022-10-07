@@ -1,0 +1,133 @@
+# 1. Información del Taller
+site_name: Mis notas sobre ESP32 STEAMakers
+site_description: Estas notas se dedican a la programación de la placa de control ESP32 Plus STEAMakers por si misma o junto con la shield Imagina TDR STEAM y otros equipamientos y todo on ArduinoBlocks
+site_author: Federico Coca
+site_url: https://fgcoca.github.io/Mis-notas-sobre-ESP32-STEAMakers/
+
+# 2. Repositorio
+repo_name: fgcoca/Mis-notas-sobre-ESP32-STEAMakers
+repo_url: https://github.com/fgcoca/Mis-notas-sobre-ESP32-STEAMakers
+edit_uri: ""
+
+# 3. Copyright
+copyright: Copyright &copy; 2020 - 2035 Federico Coca
+
+# 4. RRSS
+extra:
+  social:
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/fgcoca
+      name: Twitter de Federico Coca
+    - icon: fontawesome/brands/github
+      link: https://github.com/fgcoca
+      name: Github de Federico Coca
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/cocafederico/?hl=es
+      name: Instagram de Federico Coca
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/clubroboticagra
+      name: Twitter de Club Robótica Granada 
+
+# 5. Navegación
+nav:
+  - Introducción: index.md
+  - Algo de teoría:
+    - Software: soft.md
+    - Operadores en programación C++: operadores.md
+    - Teoría básica de IoT: IoT_basico.md 
+  - Sensores digitales en la TdR STEAM:
+    - Actividad-01. LED: A01.md
+    - Actividad-02. LEDs rojo y azul: A02.md
+    - Actividad-03. Parpadeo intermitente: A03.md
+    - Actividad-04. LED RGB: A04.md
+    - Actividad-05. Zumbador: A05.md
+    - Actividad-06. Pulsadores: A06.md
+  - Sensores analógicos en la TdR STEAM:
+    - Actividad-07. El potenciómetro: A07.md
+    - Actividad-08. La fotorresistencia o LDR: A08.md
+    - Actividad-09. El sensor de temperatura LM35D: A09.md
+    - Actividad-10. El sensor de temperatura y humedad DHT-11: A10.md
+    - Actividad-11. Emisor y receptor de infrarrojos: A11.md
+  - Mas elementos del kit:
+    - El servo: servo.md
+    - Puerto de expansión I2C. La LCD de 2x16: LCD1602.md
+    - Sensor de sonido o micrófono: sonido.md
+    - Sensor infrarrojo para evitar obstáculos: evita_obs.md
+    - LEDs RGB direccionables: neopixel.md
+  - Miscelanea:
+    - Autor: Miscelanea/about.md 
+    - Licencias: Miscelanea/lic.md
+    - Webgrafia/Bibliografía: Miscelanea/webgrafia.md
+    - Software utilizado: Miscelanea/soft.md
+
+# 6. Google Analytics - Neopixel: neopixel.md
+#google_analytics:
+#  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+#  - auto
+
+# 7. Configuración del tema
+theme:
+  name: material
+  # Color - Fuentes - Lenguaje
+  palette:
+    primary: light blue
+    accent: deep purple 
+  font:
+    text: Roboto 
+    code: Roboto Mono 
+  logo: img/favicon.png 
+  favicon: img/favicon.png 
+  language: es
+  extra:
+    search:
+      language: es, en
+  # Página 404
+  static_templates:
+    - 404.html
+  # No incluir los JavaScript de MkDocs
+  #include_search_page: false
+  #search_index_only: true
+
+# 8. Extensiones
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      linenums: true
+      # guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# 9. Necesario para la extensión pydownx.arithmatex
+extra_javascript:
+  # Este fichero es opcional y solo si se quiere sobreescribir la configuracion del plugin
+  #- js/extra.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
+
+# 10. Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
