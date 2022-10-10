@@ -16,7 +16,7 @@ Recuerda que tenemos un tutorial, que vamos actualizando, de estas dos placas. T
 ## <FONT COLOR=#007575>**Documentación y software ESP32 STEAMakers**</font>
 Aquí tenéis un enlace a un documento de Robolot.org con la [documentación de la placa ESP32 STEAMakers y el software asociado](https://campus.innovadidactic.com/mod/url/view.php?id=709).
 
-Lo mas conveniente es descargar el archivo, que está en formato zip, y descomprimirlo en un directorio local para poder trabajar con este material.
+Lo mas conveniente es descargar el archivo, que está en formato zip para descomprimirlo en un directorio local y así poder trabajar con este material.
 
 ## <FONT COLOR=#007575>**El kit**</font>
 En el [archivo pdf](Manuales/Montaje-del-kit.pdf) están las explicaciones para montar en el panel todos los elementos del kit en su versión completa  y nos sirve perfectamente para el montaje de los elementos de nuestro kit.
