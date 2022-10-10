@@ -16,7 +16,7 @@
   
 * Dibujo 2D vectorial [Inkscape](https://inkscape.org/es/)
 
-* Actividadque de imágenes [GIMP](https://www.gimp.org/)
+* Retoque de imágenes [GIMP](https://www.gimp.org/)
 
 * Programación por bloques con [ArduinoBlocks](http://www.arduinoblocks.com/web/site/login)
 

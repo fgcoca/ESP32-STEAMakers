@@ -21,7 +21,7 @@ Lo mas conveniente es descargar el archivo, que está en formato zip, y descompr
 ## <FONT COLOR=#007575>**El kit**</font>
 En el [archivo pdf](Manuales/Montaje-del-kit.pdf) están las explicaciones para montar en el panel todos los elementos del kit en su versión completa  y nos sirve perfectamente para el montaje de los elementos de nuestro kit.
 
-El panel tiene el aspecto siguiente:
+El panel tiene el aspecto siguiente: 
 
 <center>
 
