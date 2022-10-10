@@ -26,7 +26,7 @@ Básicamente se puede utilizar para evitar obstáculos y para robots seguidores 
 </center>
 
 ## <FONT COLOR=#007575>Programando la actividad</font>
-Vamos a realizar un detector muy básico de obstáculos que nos muestre en la LCD el texto ¿Obstaculo? Y el mensaje SI o NO en función de que exista o no dicho obstáculo dentro del rango de detección del sensor. El programa de la imagen siguiente esta disponible como [ESP32-SM-obstaculos-inicial]().
+Vamos a realizar un detector muy básico de obstáculos que nos muestre en la LCD el texto ¿Obstaculo? Y el mensaje SI o NO en función de que exista o no dicho obstáculo dentro del rango de detección del sensor. El programa de la imagen siguiente esta disponible como [ESP32-SM-obstaculos-inicial](./programas/ESP32-SM-obstaculos-inicial.abp).
 
 <center>
 

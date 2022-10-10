@@ -31,8 +31,11 @@ extra:
 # 5. Navegación
 nav:
   - Introducción: index.md
+  - Información importante: importante.md
   - Algo de teoría:
     - Software: soft.md
+    - Hardware TdR STEAM: htdr.md
+    - Hardware ESP32 STEAMakers: hsteamakers.md
     - Operadores en programación C++: operadores.md
     - Teoría básica de IoT: IoT_basico.md 
   - Sensores digitales en la TdR STEAM:
@@ -54,6 +57,11 @@ nav:
     - Sensor de sonido o micrófono: sonido.md
     - Sensor infrarrojo para evitar obstáculos: evita_obs.md
     - LEDs RGB direccionables: neopixel.md
+  - Otros dispositivos I2C:
+    - Matriz de LEDs: matriz8x8.md
+    - Sensor de color: color.md
+    - Sensor de gestos: gestos.md
+    - Sensor RFID: rfid.md
   - Miscelanea:
     - Autor: Miscelanea/about.md 
     - Licencias: Miscelanea/lic.md

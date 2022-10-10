@@ -1,4 +1,4 @@
-# <FONT COLOR=#8B008B>Mis notas sobre ESP32 STEAMakers</font>
+# <FONT COLOR=#8B008B>Notas sobre ESP32 STEAMakers</font>
 Estas notas se dedican a la programación de la placa de control ESP32 Plus STEAMakers por si misma o junto con la shield Imagina TDR STEAM y otros equipamientos y todo con ArduinoBlocks.
 
 El kit base esta formado por la placa ESP32 STEAMakers con la shield TDR STEAM colocada encima.
@@ -16,9 +16,7 @@ Recuerda que tenemos un tutorial, que vamos actualizando, de estas dos placas. T
 ## <FONT COLOR=#007575>**Documentación y software ESP32 STEAMakers**</font>
 Aquí tenéis un enlace a un documento de Robolot.org con la [documentación de la placa ESP32 STEAMakers y el software asociado](https://campus.innovadidactic.com/mod/url/view.php?id=709).
 
-En este otro enlace podemos [descargarlo desde el repositorio de esta web](Manuales/ESP32-STEAMakers.zip).
-
-Lo mas conveniente es descargar el archivo, que está en formato zip, y descomprimirlo en un directorio local para poder trabajar con este material durante el curso.
+Lo mas conveniente es descargar el archivo, que está en formato zip, y descomprimirlo en un directorio local para poder trabajar con este material.
 
 ## <FONT COLOR=#007575>**El kit**</font>
 En el [archivo pdf](Manuales/Montaje-del-kit.pdf) están las explicaciones para montar en el panel todos los elementos del kit en su versión completa  y nos sirve perfectamente para el montaje de los elementos de nuestro kit.
@@ -55,5 +53,4 @@ Los elementos incluidos son:
 * Tira de Neopixel con 8 LEDs
 * Cables de connexiones
 * Elementos 3D y tornillería
-  
-En el apartado [Formaciones Ferias STEAMakers](kit1.md) se analizan los elementos externos a la placa TdR STEAM.
+
