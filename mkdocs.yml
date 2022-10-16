@@ -31,6 +31,7 @@ extra:
 # 5. Navegación
 nav:
   - Introducción: index.md
+  - Lo que vamos a necesitar: necesidades.md
   - Información importante: importante.md
   - Algo de teoría:
     - Software: soft.md
