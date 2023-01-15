@@ -36,6 +36,7 @@ nav:
   - Algo de teoría:
     - Software: soft.md
     - Hardware TdR STEAM: htdr.md
+    - Consideraciones sobre ESP32: conesp32.md
     - Hardware ESP32 STEAMakers: hsteamakers.md
     - Operadores en programación C++: operadores.md
     - Teoría básica de IoT: IoT_basico.md 
