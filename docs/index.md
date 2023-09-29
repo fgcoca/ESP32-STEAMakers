@@ -1,4 +1,14 @@
 # <FONT COLOR=#8B008B>Notas sobre ESP32 STEAMakers</font>
+Dentro de los muchos contenidos que nos ofrece **Francisco Soldado** en su web [ardutaller](https://www.ardutaller.com.es/principal), su [canal de Youtube](https://www.youtube.com/@ardutaller/featured) y resto de canales y RRSS que puedes consultar en su web, enlazamos aquí el relacionado con esta web:
+
+* [ENERGIA ESP32 PARTE I](https://www.youtube.com/watch?v=eEk3aFT4RIU), donde existen enlaces a dicha web, agradecimientos personales y referencia a [Club Robotica Granada](https://clubroboticagranada.github.io/).
+
+<center>
+
+<FONT COLOR=#FF00FF><font size="5"><b>Gracias Ardutaller</b></font size></font>
+
+</center>
+
 Estas notas se dedican a la programación de la placa de control ESP32 Plus STEAMakers por si misma o junto con la shield Imagina TDR STEAM y otros equipamientos y todo con ArduinoBlocks.
 
 El kit base esta formado por la placa ESP32 STEAMakers con la shield TDR STEAM colocada encima.
